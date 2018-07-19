@@ -5,46 +5,43 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+    [SerializeField] float runSpeed;
+    Rigidbody2D qRigidBody;
+    Transform qTransform;
+    
+    
 
-    [SerializeField]
-    float walkSpeed = 2.5f;
-    Rigidbody2D myRigidBody;
-    Animator playerAnimator;
 
-	// Use this for initialization
 	void Start () {
-        myRigidBody = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<Animator>();
-            
+        qRigidBody = GetComponent<Rigidbody2D>();
+        qTransform = GetComponent<Transform>();
 		
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
         Run();
-        FlipSprite();
-		
+        FlilpSprite();
 	}
-    private void Run()
-    {
-        float movementInput = Input.GetAxis("Horizontal");
-        Vector2 direction = new Vector2(movementInput * walkSpeed, myRigidBody.velocity.y);
-        myRigidBody.velocity = direction;
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed)
-        {
-            playerAnimator.SetBool("isRunning", true);
-        }
-  
+    void Run()
+    {
+        float qHorizontalInput = Input.GetAxis("Horizontal");
+       
+
+        Vector2 horizontalVector =  new Vector2( qHorizontalInput * runSpeed, qRigidBody.velocity.y);
+        qRigidBody.velocity = horizontalVector;
+
     }
-    private void FlipSprite()
+    private void FlilpSprite()
     {
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+        bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed)
+        if (isFacingRight)
         {
-            transform.localScale  = new Vector2(Mathf.Sign(myRigidBody.velocity.x), 1f);
+            transform.localScale = new Vector2(Mathf.Sign( qRigidBody.velocity.x), 1f);
         }
+    
+
     }
 }

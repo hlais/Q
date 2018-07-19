@@ -1,0 +1,1660 @@
+fileFormatVersion: 2
+guid: b7155d3abd961fd4b8c9b23fd68ea9d8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character sprite sheet 2. runattackv2_0
+    21300002: character sprite sheet 2. runattackv2_1
+    21300004: character sprite sheet 2. runattackv2_2
+    21300006: character sprite sheet 2. runattackv2_3
+    21300008: character sprite sheet 2. runattackv2_4
+    21300010: character sprite sheet 2. runattackv2_5
+    21300012: character sprite sheet 2. runattackv2_6
+    21300014: character sprite sheet 2. runattackv2_7
+    21300016: character sprite sheet 2. runattackv2_8
+    21300018: character sprite sheet 2. runattackv2_9
+    21300020: character sprite sheet 2. runattackv2_10
+    21300022: character sprite sheet 2. runattackv2_11
+    21300024: character sprite sheet 2. runattackv2_12
+    21300026: character sprite sheet 2. runattackv2_13
+    21300028: character sprite sheet 2. runattackv2_14
+    21300030: character sprite sheet 2. runattackv2_15
+    21300032: character sprite sheet 2. runattackv2_16
+    21300034: character sprite sheet 2. runattackv2_17
+    21300036: character sprite sheet 2. runattackv2_18
+    21300038: character sprite sheet 2. runattackv2_19
+    21300040: character sprite sheet 2. runattackv2_20
+    21300042: character sprite sheet 2. runattackv2_21
+    21300044: character sprite sheet 2. runattackv2_22
+    21300046: character sprite sheet 2. runattackv2_23
+    21300048: character sprite sheet 2. runattackv2_24
+    21300050: character sprite sheet 2. runattackv2_25
+    21300052: character sprite sheet 2. runattackv2_26
+    21300054: character sprite sheet 2. runattackv2_27
+    21300056: character sprite sheet 2. runattackv2_28
+    21300058: character sprite sheet 2. runattackv2_29
+    21300060: character sprite sheet 2. runattackv2_30
+    21300062: character sprite sheet 2. runattackv2_31
+    21300064: character sprite sheet 2. runattackv2_32
+    21300066: character sprite sheet 2. runattackv2_33
+    21300068: character sprite sheet 2. runattackv2_34
+    21300070: character sprite sheet 2. runattackv2_35
+    21300072: character sprite sheet 2. runattackv2_36
+    21300074: character sprite sheet 2. runattackv2_37
+    21300076: character sprite sheet 2. runattackv2_38
+    21300078: character sprite sheet 2. runattackv2_39
+    21300080: character sprite sheet 2. runattackv2_40
+    21300082: character sprite sheet 2. runattackv2_41
+    21300084: character sprite sheet 2. runattackv2_42
+    21300086: character sprite sheet 2. runattackv2_43
+    21300088: character sprite sheet 2. runattackv2_44
+    21300090: character sprite sheet 2. runattackv2_45
+    21300092: character sprite sheet 2. runattackv2_46
+    21300094: character sprite sheet 2. runattackv2_47
+    21300096: character sprite sheet 2. runattackv2_48
+    21300098: character sprite sheet 2. runattackv2_49
+    21300100: character sprite sheet 2. runattackv2_50
+    21300102: character sprite sheet 2. runattackv2_51
+    21300104: character sprite sheet 2. runattackv2_52
+    21300106: character sprite sheet 2. runattackv2_53
+    21300108: character sprite sheet 2. runattackv2_54
+    21300110: character sprite sheet 2. runattackv2_55
+    21300112: character sprite sheet 2. runattackv2_56
+    21300114: character sprite sheet 2. runattackv2_57
+    21300116: character sprite sheet 2. runattackv2_58
+    21300118: character sprite sheet 2. runattackv2_59
+    21300120: character sprite sheet 2. runattackv2_60
+    21300122: character sprite sheet 2. runattackv2_61
+    21300124: character sprite sheet 2. runattackv2_62
+    21300126: character sprite sheet 2. runattackv2_63
+    21300128: character sprite sheet 2. runattackv2_64
+    21300130: character sprite sheet 2. runattackv2_65
+    21300132: character sprite sheet 2. runattackv2_66
+    21300134: character sprite sheet 2. runattackv2_67
+    21300136: character sprite sheet 2. runattackv2_68
+    21300138: character sprite sheet 2. runattackv2_69
+    21300140: character sprite sheet 2. runattackv2_70
+    21300142: character sprite sheet 2. runattackv2_71
+    21300144: character sprite sheet 2. runattackv2_72
+    21300146: character sprite sheet 2. runattackv2_73
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 843
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b708ab891ca67b4782cc7b175ba8cd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 843
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53561c9cc3c3e243af8d6d546d1f349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 844
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7b86a85ed435429d37246516fb169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 838
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380c4240fca04c540b638ca1057c7d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 844
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bad849194b440439f22f06f5379caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 844
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf0286ef03f3d24da9b7267597f395d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 838
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf358574a1a472541a71567bb35c2df2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 844
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d8bf3edc6949429bb3122d250870e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 843
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3520811de7f0dc444b09dd12725fc82c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 843
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd5b141159a01f45814877344f2aeb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 843
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa9ca0f3e1e6c046a5e1ee8ca98948b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 843
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f915139072ad51d4aba1ac530628af80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 844
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc32d304fb22044ba67e0219bc587e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811cc906907ec2843bfbe84889a57023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 720
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b11f53b62db34a97542da2a9a0bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 720
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ed2897e592b94690066cf2efdb0f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 717
+        width: 165
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9b4f93e6748946a439a1b4ef23c55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 714
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e30cfac84e1fe44996d68a29d503b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_18
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 768
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249eecc409f1e5144b4f9395991d0473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_19
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 747
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec03273228d2942a756151b8294b46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 691
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9358e01ca66bf2f4688f363e63cb39e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 691
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb3112f9b6d0e4e8afffd3cdd2a8e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 690
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49c8a3139535414380b0dbb27c6106d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_23
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 691
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704b75251de5594ca2ce3b43d04b42f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_24
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 690
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb624b1f8bea7fc4e8df2156cc33f924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 591
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aecc61238068ea4bb54de028ee2cf41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 636
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0884bfad37954824699f53d935fc0546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 591
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11900bd56556a584f9a7a70649c08c8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 561
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0954a6296bd764eb5c234676cb5ea2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_29
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 562
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bc42e51e9a9864a9cb5720a7e32bde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 513
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f306cf4c894d43bb551d75608fc2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 514
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caf067bf9412f04c986b8704ae038f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 514
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f847fe4b100b4b54b8a02e759c72aff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_33
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 513
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7dc50adb55f746924967575e95c90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 514
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396c2b1faec255546b28a6323acdfe76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_35
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 513
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059bf43ec892504dad855cca9dd1a31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_36
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 513
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2f10f1077041c4694c24f82ac45ca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_37
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 514
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f61047a36ba454e8174bf877bc0580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 396
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c170769256c7a409fddab960b8e06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_39
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 381
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7213606df39f568488923799b373309e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 390
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a3f49700fb144191bafd1179396a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 390
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7179b845c00d79049b9ffd8651bea8dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_42
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 387
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec784d3c4aed4942a542f6e5a429ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 390
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0760e6cb5dbdd6846bd77f7bcbfb6b6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_44
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 362
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937f484e91f1bc146a5ae6453f8e3621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_45
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 362
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c4788ed5da01469c7be05bd7f135a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_46
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 361
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e14cf6b0d1086d4681fd7b84403e977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 362
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d144b316b8ed624b9c76b690c4e36fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_48
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 361
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd4099894834a5488af04df9c03e7b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_49
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 361
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de709015cddb26940b78715141049ae7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_50
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 316
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f19658ae70304ea7271899fa11f56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 316
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02411c5ce3a1b0941b4068cc011a0042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 316
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81e6fb7df84eb2478c616eef7d3d77e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_53
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 316
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ad4c7bf4e1dd4f9f45373445b7abc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 316
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449ba12c9fd81e643bbe15e4de56bbca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 317
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56f5ddd3bb87646922f106506c014d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 316
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db72f7bdd48d76f4ba4c4d5651c49ff1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_57
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 317
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc0c78ff6a36e54492d77d098fb7359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_58
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 204
+        width: 84
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5353258, y: 0.56105757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5275660e5380d4fa195280e1e5d0c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_59
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 272
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03036927c21c4c47af10612be93fb15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_60
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 207
+        width: 162
+        height: 87
+      alignment: 9
+      pivot: {x: 0.42062622, y: 0.4431545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749c57d386bd0d0468a3682014fac773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_61
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 204
+        width: 175
+        height: 87
+      alignment: 9
+      pivot: {x: 0.39826223, y: 0.5113708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8fbdbacc82d8b4ba9043ba8c06538d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_62
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 206
+        width: 199
+        height: 87
+      alignment: 9
+      pivot: {x: 0.38070938, y: 0.5000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c273f496847dd44b1e7e82635feef7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 243
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b71d22e670094ebba60cd1af42128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_64
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 222
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9697e82f2c6e4da028ba214e34289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_65
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 222
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9800601b3e998841b66a51d7327a741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_66
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 173
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80965b5ae5fc1154f954e7af0caa642c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 173
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d29327fa6d9f0498be16988b5284c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_68
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07de66cc8b299c2499791479fd56ef44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_69
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 173
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa70c427ff189b945a2a1add9af2f9b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_70
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 87
+        height: 90
+      alignment: 9
+      pivot: {x: 0.44315392, y: 0.4450492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3695885891c5b2d4f8d45714f67482e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 56
+        height: 89
+      alignment: 9
+      pivot: {x: 0.6798398, y: 0.43405896}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0597d5f8fb87ef84b9267412359bebd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_72
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 24
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7088b602e6e15ea47b44818f9e0cb64b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet 2. runattackv2_73
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 24
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceec6f813e06b8a4ea511b38e5d97c88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c2597c34c8490748af9bcbf88c85dc7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
