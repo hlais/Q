@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 192620964}
   - component: {fileID: 192620963}
   - component: {fileID: 192620962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BridgeWithLightsOff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 802916326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BricksFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,6 +379,14 @@ Prefab:
     - target: {fileID: 1022914426158410, guid: 288eb7befd918824d9376c41275ad107, type: 2}
       propertyPath: m_Name
       value: BlockOfBricks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022914426158410, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614105132140058, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 288eb7befd918824d9376c41275ad107, type: 2}
@@ -526,6 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 3
+  jumpForce: 15
 --- !u!1001 &1311852513
 Prefab:
   m_ObjectHideFlags: 0
@@ -568,6 +577,19 @@ Prefab:
     - target: {fileID: 1022914426158410, guid: 288eb7befd918824d9376c41275ad107, type: 2}
       propertyPath: m_Name
       value: BlockOfBricks
+      objectReference: {fileID: 0}
+    - target: {fileID: 61543423520714758, guid: 288eb7befd918824d9376c41275ad107,
+        type: 2}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022914426158410, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614105132140058, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 288eb7befd918824d9376c41275ad107, type: 2}
@@ -620,6 +642,10 @@ Prefab:
       propertyPath: m_Name
       value: Stairs
       objectReference: {fileID: 0}
+    - target: {fileID: 1524826143800970, guid: 8c802c48527b5634b9a4b367088f5013, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c802c48527b5634b9a4b367088f5013, type: 2}
   m_IsPrefabParent: 0
@@ -666,6 +692,19 @@ Prefab:
       propertyPath: m_Name
       value: BlockOfBricks
       objectReference: {fileID: 0}
+    - target: {fileID: 61543423520714758, guid: 288eb7befd918824d9376c41275ad107,
+        type: 2}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022914426158410, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614105132140058, guid: 288eb7befd918824d9376c41275ad107, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 288eb7befd918824d9376c41275ad107, type: 2}
   m_IsPrefabParent: 0
@@ -711,6 +750,30 @@ Prefab:
     - target: {fileID: 1905488715285102, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
       propertyPath: m_Name
       value: BrickFloor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905488715285102, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639082227247724, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778976952383394, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639537363185622, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903956520192954, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031270514094608, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
@@ -763,6 +826,30 @@ Prefab:
         type: 2}
       propertyPath: m_SortingLayer
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905488715285102, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639082227247724, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778976952383394, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639537363185622, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903956520192954, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031270514094608, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebcc60c1b1f6f69449f8dcec35e68726, type: 2}
