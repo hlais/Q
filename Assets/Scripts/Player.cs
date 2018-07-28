@@ -8,9 +8,11 @@ public class Player : MonoBehaviour {
     //config
     [SerializeField] float runSpeed;
     [SerializeField] float jumpForce = 5f;
+    [SerializeField] float climbSpeed = 5f;
     Rigidbody2D qRigidBody;
     Animator qAnimator;
     Collider2D qCollider;
+    float gravityScaleAtStart;
     
 
     //state
@@ -22,6 +24,7 @@ public class Player : MonoBehaviour {
         qRigidBody = GetComponent<Rigidbody2D>();
         qAnimator = GetComponent<Animator>();
         qCollider = GetComponent<Collider2D>();
+        gravityScaleAtStart = qRigidBody.gravityScale;
 		
 	}
 	
@@ -30,7 +33,9 @@ public class Player : MonoBehaviour {
         Run();
         FlilpSprite();
         Jump();
-	}
+        ClimbLadder();
+
+    }
 
     void Run()
     {
@@ -48,23 +53,55 @@ public class Player : MonoBehaviour {
     void Jump()
     {
         
+
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
+            qAnimator.SetBool("IsJumping", false);
             return;
         }
-
-        bool isJumping = Input.GetButtonDown("Jump");
-
-
+            bool isJumping = Input.GetButtonDown("Jump");
         if (isJumping)
         {
+            
             Vector2 qJumpVelocity = new Vector2(0f, jumpForce);
             qRigidBody.velocity += qJumpVelocity;
-            //qAnimator.SetBool("IsJumping", isJumping);
+            qAnimator.SetBool("IsJumping", true);
+        }
+       
+
+
+
+    }
+    void ClimbLadder()
+    {
+        if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ladder")))
+        {
+            
+            qAnimator.SetBool("IsClimbingLatter", false);
+            qRigidBody.gravityScale = gravityScaleAtStart;
+            return;
         }
         
+        
+        
+
+        float qVerticalInput = Input.GetAxis("Vertical");
+
+        Vector2 verticalVector = new Vector2(qRigidBody.velocity.x, qVerticalInput * climbSpeed);
+        qRigidBody.velocity = verticalVector;
+        qRigidBody.gravityScale = 0;
+
+        bool isClimbing = Mathf.Abs(qVerticalInput) > Mathf.Epsilon;
+            qAnimator.SetBool("IsClimbingLatter", isClimbing);
+
+     
+
+       
+
+
       
     }
+
 
     private void FlilpSprite()
     {
