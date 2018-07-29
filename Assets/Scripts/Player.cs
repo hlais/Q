@@ -59,7 +59,13 @@ public class Player : MonoBehaviour {
             qAnimator.SetBool("IsJumping", false);
             return;
         }
-            bool isJumping = Input.GetButtonDown("Jump");
+        if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
+        {
+            qAnimator.SetBool("IsJumping", false);
+            return; 
+        }
+
+        bool isJumping = Input.GetButtonDown("Jump");
         if (isJumping)
         {
             
