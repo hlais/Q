@@ -13,10 +13,11 @@ public class Player : MonoBehaviour {
     Animator qAnimator;
     Collider2D qCollider;
     float gravityScaleAtStart;
+    bool attack;
     
 
     //state
-    bool isAlive = true;
+    
     
 
     //Cached Component Reference
@@ -34,16 +35,24 @@ public class Player : MonoBehaviour {
         FlilpSprite();
         Jump();
         ClimbLadder();
+        Attacking();
 
     }
 
     void Run()
     {
+        
+        if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
+        {
+            qAnimator.SetBool("IsRunning", false);
+        }
+
+
+
         float qHorizontalInput = Input.GetAxis("Horizontal");
         bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
         qAnimator.SetBool("IsRunning", isFacingRight);
        
-
 
         Vector2 horizontalVector =  new Vector2( qHorizontalInput * runSpeed, qRigidBody.velocity.y);
         qRigidBody.velocity = horizontalVector;
@@ -57,6 +66,7 @@ public class Player : MonoBehaviour {
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             qAnimator.SetBool("IsJumping", false);
+            qAnimator.ResetTrigger("IsAttacking");
             return;
         }
         if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
@@ -73,9 +83,7 @@ public class Player : MonoBehaviour {
             qRigidBody.velocity += qJumpVelocity;
             qAnimator.SetBool("IsJumping", true);
         }
-       
-
-
+      
 
     }
     void ClimbLadder()
@@ -100,13 +108,21 @@ public class Player : MonoBehaviour {
         bool isClimbing = Mathf.Abs(qVerticalInput) > Mathf.Epsilon;
             qAnimator.SetBool("IsClimbingLatter", isClimbing);
 
-     
-
-       
-
-
       
     }
+
+    void Attacking()
+    {
+        
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            qAnimator.SetTrigger("IsAttacking");
+           
+        }
+       
+    }
+
+
 
 
     private void FlilpSprite()

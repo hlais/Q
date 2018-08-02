@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212811059219999310}
   - component: {fileID: 50698459350406568}
   - component: {fileID: 61394750477487160}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 212493600470852088}
   - component: {fileID: 50765630216476026}
   - component: {fileID: 66595700664103130}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: brick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4164258667928640}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: WallBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 212188891833611052}
   - component: {fileID: 50113770907206590}
   - component: {fileID: 66714687567071072}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: brick (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 212145102153752378}
   - component: {fileID: 50325083468305046}
   - component: {fileID: 66527102388680644}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: brick (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 212899200299084396}
   - component: {fileID: 50136676023394650}
   - component: {fileID: 66589514664129128}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: brick (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260352536426944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.682, y: -0.29, z: 0}
+  m_LocalPosition: {x: -6.4764957, y: 3.2741127, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 4156077276163392}
