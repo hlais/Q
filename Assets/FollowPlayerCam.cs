@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class FollowPlayerCam : MonoBehaviour {
 
-    [SerializeField] float leftBoundary;
-    [SerializeField] float rightBoundary;
-    
+	[SerializeField] float leftBoundary;
+	[SerializeField] float rightBoundary;
+	
 
-    Player player;
+	Player player;
 	void Start () {
 
-        player = FindObjectOfType<Player>();
+		player = FindObjectOfType<Player>();
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        float playerBounded = Mathf.Clamp(player.transform.position.x, leftBoundary, rightBoundary);
-        Vector3 playerPos = new Vector3(playerBounded, -0.2f,transform.position.z);
-        transform.position = playerPos;
+		float playerBounded = Mathf.Clamp(player.transform.position.x, leftBoundary, rightBoundary);
+		Vector3 playerPos = new Vector3(playerBounded, -0.2f,transform.position.z);
+		transform.position = playerPos;
 		
 
-    }
+	}
 }

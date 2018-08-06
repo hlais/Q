@@ -1,7 +1,6 @@
 ﻿1>------ Build started: Project: Assembly-CSharp, Configuration: Debug Any CPU ------
-1>D:\UnityProjects\Q\Assets\FollowPlayerCam.cs(8,28,8,41): warning CS0649: Field 'FollowPlayerCam.rightBoundary' is never assigned to, and will always have its default value 0
 1>D:\UnityProjects\Q\Assets\FollowPlayerCam.cs(7,28,7,40): warning CS0649: Field 'FollowPlayerCam.leftBoundary' is never assigned to, and will always have its default value 0
+1>D:\UnityProjects\Q\Assets\FollowPlayerCam.cs(8,28,8,41): warning CS0649: Field 'FollowPlayerCam.rightBoundary' is never assigned to, and will always have its default value 0
 1>D:\UnityProjects\Q\Assets\Scripts\Player.cs(9,28,9,36): warning CS0649: Field 'Player.runSpeed' is never assigned to, and will always have its default value 0
-1>D:\UnityProjects\Q\Assets\Scripts\Player.cs(19,10,19,17): warning CS0414: The field 'Player.isAlive' is assigned but its value is never used
 1>  Assembly-CSharp -> D:\UnityProjects\Q\Temp\bin\Debug\Assembly-CSharp.dll
 ========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========

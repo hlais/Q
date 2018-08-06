@@ -13,7 +13,8 @@ public class Player : MonoBehaviour {
     Animator qAnimator;
     Collider2D qCollider;
     float gravityScaleAtStart;
-    bool attack;
+  
+   
     
 
     //state
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour {
         FlilpSprite();
         Jump();
         ClimbLadder();
+        JumpAttack();
         Attacking();
 
     }
@@ -47,22 +49,23 @@ public class Player : MonoBehaviour {
             qAnimator.SetBool("IsRunning", false);
         }
 
+        if (!this.qAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
+        {
+
+            float qHorizontalInput = Input.GetAxis("Horizontal");
+            bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
+            qAnimator.SetBool("IsRunning", isFacingRight);
 
 
-        float qHorizontalInput = Input.GetAxis("Horizontal");
-        bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
-        qAnimator.SetBool("IsRunning", isFacingRight);
-       
-
-        Vector2 horizontalVector =  new Vector2( qHorizontalInput * runSpeed, qRigidBody.velocity.y);
-        qRigidBody.velocity = horizontalVector;
+            Vector2 horizontalVector = new Vector2(qHorizontalInput * runSpeed, qRigidBody.velocity.y);
+            qRigidBody.velocity = horizontalVector;
+        }
+        
 
     }
 
     void Jump()
     {
-        
-
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             qAnimator.SetBool("IsJumping", false);
@@ -83,8 +86,6 @@ public class Player : MonoBehaviour {
             qRigidBody.velocity += qJumpVelocity;
             qAnimator.SetBool("IsJumping", true);
         }
-      
-
     }
     void ClimbLadder()
     {
@@ -92,6 +93,7 @@ public class Player : MonoBehaviour {
         {
             
             qAnimator.SetBool("IsClimbingLatter", false);
+           
             qRigidBody.gravityScale = gravityScaleAtStart;
             return;
         }
@@ -113,16 +115,29 @@ public class Player : MonoBehaviour {
 
     void Attacking()
     {
-        
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            qAnimator.SetTrigger("IsAttacking");
-           
-        }
        
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+             qAnimator.SetTrigger("IsAttacking");
+             qRigidBody.velocity = Vector2.zero;
+             
+            
+
+        }
     }
+    void JumpAttack()
+    {
 
 
+        if (qAnimator.GetCurrentAnimatorStateInfo(0).IsName("Jumping") && Input.GetKeyDown(KeyCode.F))
+        {
+            qAnimator.SetTrigger("jumpAttack");
+         
+            
+        }
+
+      
+    }
 
 
     private void FlilpSprite()

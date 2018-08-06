@@ -471,7 +471,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 252
-        y: 720
+        y: 721
         width: 84
         height: 90
       alignment: 0
@@ -494,8 +494,8 @@ TextureImporter:
         y: 717
         width: 165
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4220694, y: 0.47939363}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,12 +511,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 564
-        y: 714
-        width: 126
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        y: 710
+        width: 179
+        height: 109
+      alignment: 9
+      pivot: {x: 0.40053555, y: 0.5000006}
+      border: {x: 0, y: 0, z: 6, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -550,12 +550,12 @@ TextureImporter:
       name: character sprite sheet 2. runattackv2_19
       rect:
         serializedVersion: 2
-        x: 702
-        y: 747
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 780
+        y: 761
+        width: 60
+        height: 66
+      alignment: 9
+      pivot: {x: 0.609904, y: 0.460437}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
