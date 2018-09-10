@@ -57,7 +57,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -1.128934, y: -1.702864}
-  - {x: 2.2148173, y: 0.7403761}
+  - {x: 2.2148178, y: 0.6527999}
 --- !u!212 &212963827434061662
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 812614039
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 579cdddceb5588b4b919b19398b6e22c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

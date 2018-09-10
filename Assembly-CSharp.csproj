@@ -61,10 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FollowPlayerCam.cs" />
-    <Compile Include="Assets\FollowPlayerWithDelay.cs" />
+    <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\Oscillator.cs" />
+    <Compile Include="Assets\Scripts\FollowPlayerCam.cs" />
+    <Compile Include="Assets\Scripts\FollowPlayerWithDelay.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\VirtualController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/UnityProjects/Q/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

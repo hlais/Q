@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityStandardAssets.CrossPlatformInput;
+
 
 public class Player : MonoBehaviour {
+
 
     //config
     [SerializeField] float runSpeed;
@@ -13,25 +16,26 @@ public class Player : MonoBehaviour {
     Animator qAnimator;
     Collider2D qCollider;
     float gravityScaleAtStart;
-  
-   
-    
 
+    float qVerticalInput;
+    float qHorizontalInput;
+
+    public bool isKeyBoardControlsOn = true;
     //state
-    
-    
 
     //Cached Component Reference
-	void Start () {
+    void Start()
+    {
         qRigidBody = GetComponent<Rigidbody2D>();
         qAnimator = GetComponent<Animator>();
         qCollider = GetComponent<Collider2D>();
         gravityScaleAtStart = qRigidBody.gravityScale;
-		
-	}
-	
-	
-	void Update () {
+
+    }
+
+
+    void Update()
+    {
         Run();
         FlilpSprite();
         Jump();
@@ -43,86 +47,104 @@ public class Player : MonoBehaviour {
 
     void Run()
     {
-        
+
         if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
         {
+           
             qAnimator.SetBool("IsRunning", false);
         }
 
         if (!this.qAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
 
-            float qHorizontalInput = Input.GetAxis("Horizontal");
+            qHorizontalInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+            if (isKeyBoardControlsOn)
+            {
+                qHorizontalInput = Input.GetAxis("Horizontal");
+            }
             bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
             qAnimator.SetBool("IsRunning", isFacingRight);
+            //print(qHorizontalInput);
 
-
-            Vector2 horizontalVector = new Vector2(qHorizontalInput * runSpeed, qRigidBody.velocity.y);
+            Vector2 horizontalVector = new Vector2(qHorizontalInput * runSpeed * Time.deltaTime, qRigidBody.velocity.y);
             qRigidBody.velocity = horizontalVector;
         }
-        
-
     }
 
-    void Jump()
+    public void Jump()
     {
+        bool isJumping;
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             qAnimator.SetBool("IsJumping", false);
+
             qAnimator.ResetTrigger("IsAttacking");
             return;
         }
+
         if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
         {
             qAnimator.SetBool("IsJumping", false);
-            return; 
+            return;
         }
 
-        bool isJumping = Input.GetButtonDown("Jump");
+        
+        if (!isKeyBoardControlsOn)
+        {
+            //bool isJumping = Input.GetButtonDown("Jump");
+            isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
+        }
+        else
+        {
+            isJumping = Input.GetButton("Jump");
+        }
+        
+
         if (isJumping)
         {
-            
+
             Vector2 qJumpVelocity = new Vector2(0f, jumpForce);
             qRigidBody.velocity += qJumpVelocity;
             qAnimator.SetBool("IsJumping", true);
         }
     }
+
     void ClimbLadder()
     {
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ladder")))
         {
-            
+
             qAnimator.SetBool("IsClimbingLatter", false);
-           
+
             qRigidBody.gravityScale = gravityScaleAtStart;
             return;
         }
-        
-        
-        
 
-        float qVerticalInput = Input.GetAxis("Vertical");
+        qVerticalInput = CrossPlatformInputManager.GetAxisRaw("Vertical");
+
+        if (isKeyBoardControlsOn)
+        {
+            qVerticalInput = Input.GetAxis("Vertical");
+        }
 
         Vector2 verticalVector = new Vector2(qRigidBody.velocity.x, qVerticalInput * climbSpeed);
         qRigidBody.velocity = verticalVector;
         qRigidBody.gravityScale = 0;
 
         bool isClimbing = Mathf.Abs(qVerticalInput) > Mathf.Epsilon;
-            qAnimator.SetBool("IsClimbingLatter", isClimbing);
+        qAnimator.SetBool("IsClimbingLatter", isClimbing);
 
-      
+
     }
 
     void Attacking()
     {
-       
-            if (Input.GetKeyDown(KeyCode.F))
-            {
+
+        if (Input.GetKeyDown(KeyCode.F) || CrossPlatformInputManager.GetButtonDown("Fire1"))
+
+        {
              qAnimator.SetTrigger("IsAttacking");
              qRigidBody.velocity = Vector2.zero;
-             
-            
-
         }
     }
     void JumpAttack()
@@ -132,11 +154,7 @@ public class Player : MonoBehaviour {
         if (qAnimator.GetCurrentAnimatorStateInfo(0).IsName("Jumping") && Input.GetKeyDown(KeyCode.F))
         {
             qAnimator.SetTrigger("jumpAttack");
-         
-            
         }
-
-      
     }
 
 
