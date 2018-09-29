@@ -61,6 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BatMovement.cs" />
+    <Compile Include="Assets\CloudGenerator.cs" />
+    <Compile Include="Assets\CloudManagerScript.cs" />
+    <Compile Include="Assets\CloudScript.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
     <Compile Include="Assets\Oscillator.cs" />
     <Compile Include="Assets\Scripts\FollowPlayerCam.cs" />

@@ -6,7 +6,10 @@ public class FollowPlayerWithDelay : MonoBehaviour {
 
     [SerializeField] float leftBoundary;
     [SerializeField] float rightBoundary;
+    [SerializeField] float topBoundary;
+    [SerializeField] float bottomBoundary;
     Player player;
+
     public float smoothing = 2.5f;
 
     Vector3 offset;
@@ -18,10 +21,15 @@ public class FollowPlayerWithDelay : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-        float playerBounded = Mathf.Clamp(player.transform.position.x, leftBoundary, rightBoundary);
-        Vector3 playerPos = new Vector3(playerBounded, -0.2f, transform.position.z);
+        float playerXBounded = Mathf.Clamp(player.transform.position.x, leftBoundary, rightBoundary);
+        float playerYBounded = Mathf.Clamp(player.transform.position.y, topBoundary, bottomBoundary);
+
+
+        Vector3 playerPos = new Vector3(playerXBounded, playerYBounded, transform.position.z);
+
+
         Vector3 targetCamPos = player.transform.position + offset;
-        transform.position = Vector3.Lerp(playerPos, targetCamPos, smoothing * Time.deltaTime);
+        transform.position = Vector3.Lerp(playerPos, targetCamPos, smoothing * Time.fixedDeltaTime);
 		
 	}
 }

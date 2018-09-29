@@ -12,16 +12,26 @@ public class Player : MonoBehaviour {
     [SerializeField] float runSpeed;
     [SerializeField] float jumpForce = 5f;
     [SerializeField] float climbSpeed = 5f;
+    [SerializeField] float airbouneAttack = 0.5f;
+    [SerializeField] GameObject swordSlash;
+    public Transform pointOfSlash;
     Rigidbody2D qRigidBody;
     Animator qAnimator;
     Collider2D qCollider;
-    float gravityScaleAtStart;
+    Vector2 startGravity;
 
+    
+
+
+    float gravityScaleAtStart;
     float qVerticalInput;
     float qHorizontalInput;
 
     public bool isKeyBoardControlsOn = true;
+
     //state
+    bool isJumping;
+  
 
     //Cached Component Reference
     void Start()
@@ -30,6 +40,7 @@ public class Player : MonoBehaviour {
         qAnimator = GetComponent<Animator>();
         qCollider = GetComponent<Collider2D>();
         gravityScaleAtStart = qRigidBody.gravityScale;
+        startGravity = Physics2D.gravity;
 
     }
 
@@ -73,10 +84,11 @@ public class Player : MonoBehaviour {
 
     public void Jump()
     {
-        bool isJumping;
+       
         if (!qCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             qAnimator.SetBool("IsJumping", false);
+           
 
             qAnimator.ResetTrigger("IsAttacking");
             return;
@@ -85,6 +97,7 @@ public class Player : MonoBehaviour {
         if (qCollider.IsTouchingLayers(LayerMask.GetMask("Wall")))
         {
             qAnimator.SetBool("IsJumping", false);
+          
             return;
         }
 
@@ -106,8 +119,41 @@ public class Player : MonoBehaviour {
             Vector2 qJumpVelocity = new Vector2(0f, jumpForce);
             qRigidBody.velocity += qJumpVelocity;
             qAnimator.SetBool("IsJumping", true);
+
+
+            
         }
     }
+    void JumpAttack()
+    {
+
+       
+
+      
+
+
+        if ((Mathf.Abs(qRigidBody.velocity.y) > Mathf.Epsilon) && (Input.GetKeyDown(KeyCode.F) || CrossPlatformInputManager.GetButtonDown("Fire1")))
+        {
+        
+            Physics2D.gravity = new Vector2(0,0);
+
+             qAnimator.SetTrigger("jumpAttack");
+    
+          
+            StartCoroutine("Landing");
+          
+        }
+        
+       
+
+    }
+    IEnumerator Landing()
+    {
+        
+        yield return new WaitForSeconds(airbouneAttack);
+        Physics2D.gravity = startGravity;
+    }
+
 
     void ClimbLadder()
     {
@@ -144,18 +190,17 @@ public class Player : MonoBehaviour {
 
         {
              qAnimator.SetTrigger("IsAttacking");
+            SwordSlash();
              qRigidBody.velocity = Vector2.zero;
         }
     }
-    void JumpAttack()
+    void SwordSlash()
     {
-
-
-        if (qAnimator.GetCurrentAnimatorStateInfo(0).IsName("Jumping") && Input.GetKeyDown(KeyCode.F))
-        {
-            qAnimator.SetTrigger("jumpAttack");
-        }
+        GameObject slash;
+        slash =    Instantiate(swordSlash, new Vector2(pointOfSlash.position.x, pointOfSlash.position.y), Quaternion.identity) ;
+        Object.Destroy(slash, 0.3f);
     }
+
 
 
     private void FlilpSprite()
