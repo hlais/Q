@@ -68,19 +68,21 @@ public class Player : MonoBehaviour {
         if (!this.qAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
 
+
             qHorizontalInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-            if (isKeyBoardControlsOn)
-            {
-                qHorizontalInput = Input.GetAxis("Horizontal");
-            }
+            print(qHorizontalInput);
+            //if (isKeyBoardControlsOn)
+            //{
+            //    qHorizontalInput = Input.GetAxis("Horizontal");
+            //}
             bool isFacingRight = Mathf.Abs(qRigidBody.velocity.x) > Mathf.Epsilon;
             qAnimator.SetBool("IsRunning", isFacingRight);
             //print(qHorizontalInput);
 
-            Vector2 horizontalVector = new Vector2(qHorizontalInput * runSpeed * Time.deltaTime, qRigidBody.velocity.y);
+            Vector2 horizontalVector = new Vector2(qHorizontalInput * runSpeed * Time.deltaTime, 0f);
             qRigidBody.velocity = horizontalVector;
-        }
     }
+}
 
     public void Jump()
     {
